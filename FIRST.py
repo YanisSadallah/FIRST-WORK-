@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = pd.read_csv("C:/Users/YANIGOAT/Documents/HRDataset_v14.csv")
+data = pd.read_csv("HRDataset_v14.csv")
 #PRESENTATION DES DATAS
 print(data.shape)
 print(data.head(20))

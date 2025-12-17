@@ -1,23 +1,19 @@
-HR Data Analysis - Performance and Absenteeism
+# HR Data Analysis: Performance & Absenteeism
 
-Project Overview: This project analyzes a Human Resources dataset to identify the main factors affecting employee performance and absence rates. It uses statistical methods to provide clear insights for workforce management.
+## Project Overview
+This project analyzes a Human Resources dataset to investigate potential correlations between employee demographics, performance scores, and absenteeism. The objective is to identify data-driven patterns to support workforce management decisions.
 
-Key Steps:
+## Methodology
+The analysis follows a structured data science workflow:
+1.  **Data Preprocessing:** Handling missing values and formatting data types.
+2.  **Exploratory Data Analysis (EDA):** Visualizing distributions of performance and absences.
+3.  **Statistical Hypothesis Testing:** Implementing **Chi-Square tests** to determine if performance scores are independent of gender (p-value analysis).
+4.  **Anomaly Detection:** Using the **Interquartile Range (IQR)** method to detect statistical outliers in absenteeism records.
 
-Exploratory Data Analysis (EDA) to understand the dataset structure.
+## Key Findings
+* **Performance & Gender:** Statistical tests suggest [There is/There is no] significant correlation between gender and performance ratings.
+* **Absenteeism:** Outlier analysis identified specific profiles exceeding the upper bound of [X] days of absence.
 
-Statistical testing using the Chi-Square method to check the link between Gender and Performance.
-
-Outlier detection using the Interquartile Range (IQR) to find abnormal absence patterns.
-
-Data visualization to compare employee productivity with absenteeism.
-
-Main Findings:
-
-Statistical analysis helps detect potential biases in performance reviews.
-
-Identification of specific employee groups with high absence risks.
-
-Technologies:
-
-Python (Pandas, Numpy, Scipy, Seaborn, Matplotlib)
+## Stack & Tools
+* **Language:** Python 3.x
+* **Libraries:** Pandas, NumPy, SciPy (Stats), Seaborn, Matplotlib.
